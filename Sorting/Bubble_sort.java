@@ -26,7 +26,11 @@ public class Bubble_sort {
 
     public static void main(String[] args) {
         int[] arr = {5,1,2,4,3};
+        System.out.print("Unsorted array:");
+        print(arr);
+        System.out.println();
         bubblesort(arr);
+        System.out.print("Sorted array:");
         print(arr);
     }
 }

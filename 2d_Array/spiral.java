@@ -9,7 +9,7 @@ public class spiral {
         int startrow = 0;
         int startcol = 0;
         int endrow = nums.length - 1;
-        int endcol = nums.length - 1;
+        int endcol = nums[0].length - 1;
 
         while(startrow<=endrow && startcol<=endcol){
             //for the top part row is fix and col is variable
